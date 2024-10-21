@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<coches>
+    <coche>
+        <marca>Seat</marca>
+        <modelo>Leon</modelo>
+        <matricula>245J</matricula>
+        <anno>2020</anno>
+        <fechaVenta>16/10/2024</fechaVenta>
+    </coche>
+    <coche>
+        <marca>Peugeot</marca>
+        <modelo>206</modelo>
+        <matricula>37J9</matricula>
+        <anno>2015</anno>
+        <fechaVenta>19/08/2017</fechaVenta>
+    </coche>
+    <coche>
+        <marca>Renault</marca>
+        <modelo>Captur</modelo>
+        <matricula>3524C</matricula>
+        <anno>2023</anno>
+        <fechaVenta>18/10/2024</fechaVenta>
+    </coche>
+</coches>
