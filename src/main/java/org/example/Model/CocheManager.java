@@ -43,24 +43,4 @@ public class CocheManager {
             return new ArrayList<>();
         }
     }
-
-    public List<Coche> cargarCochesVendidos(){
-        File file = new File(PATH);
-        if(!file.exists()){
-            System.out.println("El archivo no existe. Se devolverá una lista vacía");
-            return new ArrayList<>();
-        }
-
-        try{
-
-            JAXBContext context = JAXBContext.newInstance(CocheLista.class);
-            Unmarshaller unmarshaller = context.createUnmarshaller();
-            CocheLista lista = (CocheLista) unmarshaller.unmarshal(file);
-            return lista.getListaCoches();
-
-        } catch (JAXBException e) {
-            e.printStackTrace();
-            return new ArrayList<>();
-        }
-    }
 }
